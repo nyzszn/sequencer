@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: white;
+    font-family: monospace;
+  }
+  
+  canvas {
+    display: block;
+  }
+  
+  #overlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    z-index: 10;
+  }
+  
+  #startButton {
+    font-size: 22px;
+    padding: 20px 40px;
+    background: white;
+    border: 6px solid black;
+    cursor: pointer;
+    letter-spacing: 3px;
+    transition: 0.2s;
+  }
+  
+  #startButton:hover {
+    background: black;
+    color: white;
+  }
+  
